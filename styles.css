@@ -1,0 +1,117 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url('bg/pexels-derlei-1826060.jpg') no-repeat center center fixed;
+    background-size: cover; 
+    color: #333;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #1d4a6cc4; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+header .author {
+    font-style: bold;
+    font-size: 1rem;
+}
+
+header .description {
+    margin-top: 5px;
+    font-size: 1.2rem;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37); 
+    padding: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.18); 
+    width: 100%;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #07314b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4b87ac;
+    color: black;
+}
+
+.weather-info {
+    background: rgba(255, 255, 255, 0.8); 
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.weather-info h2 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.weather-info p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #555; 
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
